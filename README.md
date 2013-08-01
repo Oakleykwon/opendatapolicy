@@ -2,7 +2,9 @@
 
 ## Policy Development
 
-To further increase ACT Public Service awareness and application of open data principles, the Government Information Office is developing a [Proactive Information Disclosure (Open Data) policy](http://actgov.github.io/opendatapolicy/),  hosted on GitHub ready for community feedback. Interested parties are welcome to fork the draft policy and commit changes. If you do not have a GitHub account, you can also simply [email your feedback to the GIO](mailto:gio@act.gov.au).
+To further increase ACT Public Service awareness and application of open data principles, the Government Information Office is developing a [Proactive Information Disclosure (Open Data) policy](http://actgov.github.io/opendatapolicy/),  hosted on GitHub ready for community feedback. Interested parties are welcome to fork the draft policy. If you do not have a GitHub account, you can also simply [email your feedback to the GIO](mailto:gio@act.gov.au).
+
+The intended audience of this policy is all ACT Government public servants. Technical information - or the 'how' - is kept to an intentional minimum so as to enable staff to comprehend principles of open data, rather than how to implement the policy. Further documentation currently being prepared explores the technical aspects of open data.
 
 ## dataACT
 
