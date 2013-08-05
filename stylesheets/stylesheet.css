@@ -25,24 +25,21 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
-}
-blockquote p {
-  font-size: 0.875em;
+	content: '';
+	content: none;
 }
 table {
 	border-collapse: collapse;
@@ -61,12 +58,9 @@ body {
 
 a {
   color: #2879d0;
-  border-bottom: 1px solid transparent;
 }
 a:hover {
-  color: #111;
-  border-bottom: 1px solid #999;
-  background-color: #f0ffa6;
+  color: #2268b2;
 }
 
 header {
@@ -164,7 +158,7 @@ aside a.button {
 }
 
 code, pre {
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
   margin-bottom: 30px;
   font-size: 13px;
@@ -224,14 +218,7 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
-}
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
+  
 }
 
 
@@ -320,7 +307,7 @@ h6:before {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 }
  
 a {
@@ -339,20 +326,18 @@ blockquote {
 }
 
 ul li {
-  list-style: disc;
-  margin-left: 20px;
+  list-style: disc inside;
+  padding-left: 20px;
 }
 
 ol li {
-  list-style: decimal;
-  margin-left: 10px;
+  list-style: decimal inside;
+  padding-left: 3px;
 }
 
-dl dt {
-  font-weight: bold;
-}
 dl dd {
-  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: 100;
 }
 
 footer {
@@ -360,7 +345,7 @@ footer {
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
-  font-size: 14px;
+  font-size: 13px;
   color: #aaa;
 }
 
