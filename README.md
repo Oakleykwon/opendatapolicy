@@ -16,4 +16,4 @@ Approaching our second year, there is a renewed focus to release high-value data
 
 The policy document is currently drafted in 'Markdown', a plain-text, easy to read and easy to write format (just like this readme file). For a primer on Markdown check out [John Gruber's original documentation](http://daringfireball.net/projects/markdown/syntax).
 
-The policy document is `index.md`.
+The policy document is the file `index.md`.
