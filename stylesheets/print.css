@@ -31,15 +31,11 @@ ol, ul {
 }
 blockquote, q {
   quotes: none;
-  font-style: normal;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
-}
-blockquote p {
-  font-size: 0.875em;
 }
 table {
   border-collapse: collapse;
@@ -48,7 +44,7 @@ table {
 body {
   font-size: 13px;
   line-height: 1.5; 
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   color: #000;
 }
 
@@ -85,7 +81,7 @@ header h2 {
 }
 
 code, pre {
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
   margin-bottom: 30px;
   font-size: 12px;
@@ -132,14 +128,6 @@ form {
   
 }
 
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
-}
-
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -179,7 +167,7 @@ h6 {
 
 p {
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 }
  
 a {
@@ -198,20 +186,18 @@ blockquote {
 }
 
 ul li {
-  list-style: disc;
-  margin-left: 20px;
+  list-style: disc inside;
+  padding-left: 20px;
 }
 
 ol li {
-  list-style: decimal ;
-  margin-left: 10px;
+  list-style: decimal inside;
+  padding-left: 3px;
 }
 
-dl dt {
-  font-weight: bold;
-}
 dl dd {
-  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: 100;
 }
 
 footer {
