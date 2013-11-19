@@ -15,3 +15,7 @@ The intended audience of this policy is all ACT Government public servants. Tech
 [dataACT](http://www.data.act.gov.au/), the ACT Government's open data portal, launched on 30th August 2012 with around 45 datasets, growing to 82 by the end of June 2013. dataACT is led and supported by the ACT GIO in collaboration with Shared Services ICT.
 
 Approaching our second year, there is a renewed focus to release high-value datasets. We have also launched a [consultation](http://gio.act.gov.au/dataset-consultation/) to gather community requests for dataset releases. The suggestions will be used to help inform Directorates of the need for more open data releases.
+
+## GitHub-flavoured Markdown and MultiMarkdown miscellany
+
+The document policy document uses Markdown and extends to use a few MultiMarkdown features that are not catered for in GitHub’s flavour of Markdown, namely, definition lists for the Glossary.
